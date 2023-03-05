@@ -13,7 +13,7 @@ function check() {
     const realpassword = users.password;
     if (password == realpassword && username == realusername) {
         alert("Permission Granted!");
-        window.location.replace("https://WorstSakis.gervase.repl.co/logedasdds/page/")
+        window.location.replace("../page/")
      } else {
         alert("Username or Password is Incorrect!");
      }
