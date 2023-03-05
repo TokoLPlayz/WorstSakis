@@ -3,7 +3,7 @@ function check() {
   let username = document.getElementById('username').value;
   
   const request = new XMLHttpRequest();
-  request.open('GET', 'https://tokolplayz.github.io/WorstSakis/config/config.json');
+  request.open('GET', '../config/config.json');
   request.responseType = 'json';
   request.send();
   
